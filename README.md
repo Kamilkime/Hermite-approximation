@@ -28,5 +28,8 @@ An example output files can be found in `test` directory
 
 Example program usage commands can be found in `makefile`
 
+## Example approximations visualised using gnuplot
+Coming soon...
+
 ## License
 The analyser is licensed under **MIT License** - https://choosealicense.com/licenses/mit/
