@@ -29,7 +29,21 @@ An example output files can be found in `test` directory
 Example program usage commands can be found in `makefile`
 
 ## Example approximations visualised using gnuplot
-Coming soon...
+![1,m=25,d=25](/gnuplot-examples/1,m=25,d=25.png)
+**Command:** `./approx -s test/1,m=25,d=25/spline -p test/dane.1 -g test/1,m=25,d=25/plotfile -m 25 -d 25`
+
+
+![2,m=5.png](/gnuplot-examples/2,m=5.png)
+**Command:** `./approx -s test/2,m=5/spline -p test/dane.2 -g test/2,m=5/plotfile -m 5`
+
+
+![3,m=6,d=7.png](/gnuplot-examples/3,m=6,d=7.png)
+**Command:** `./approx -s test/3,m=6,d=7/spline -p test/dane.3 -g test/3,m=6,d=7/plotfile -m 6 -d 7`
+
+
+![4default](/gnuplot-examples/4default.png)
+**Command:** `./approx -s test/4default/spline -p test/dane.4 -g test/4default/plotfile`
+
 
 ## License
 The analyser is licensed under **MIT License** - https://choosealicense.com/licenses/mit/
