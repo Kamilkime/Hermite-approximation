@@ -1,6 +1,11 @@
 # Hermite-approximation
 Polynomial regression calculator using Hermite polynomials 
 
+## About the topic
+* [Least-squares function approximation](https://en.wikipedia.org/wiki/Least-squares_function_approximation)
+* [Polynomial regression](https://en.wikipedia.org/wiki/Polynomial_regression)
+* [Hermite polynomials](https://en.wikipedia.org/wiki/Hermite_polynomials)
+
 ## Purpose
 The calculator was created as a part of **Programming languages and methodology** laboratories (Warsaw University of Technology, Electrical Faculty, Applied Computer Science, semester I)
 
