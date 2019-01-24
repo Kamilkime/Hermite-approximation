@@ -15,8 +15,8 @@ The calculator was created as a part of **Programming languages and methodology*
 ## Usage
 `./approx -s spline-file [-m max-polynomial] [-d max-derivative] [-p points-file] [ -g gnuplot-file [-f from_x -t to_x -n n_points ] ]`
 * **spline-file** - name of the file to which the spline functions will be written if `points-file` was also given, otherwise the spline will be read from a given file
-* **max-polynomial** - max polynomial degree which will be used for calculations (the bigger - the better approximation but also longer calculation time)
-* **max-derivative** - max derivative degree which will be used for calculations (the bigger - the better approximation but also longer calculation time) 
+* **max-polynomial** - max polynomial degree which will be used for calculations (the bigger - the better approximation but also longer calculation time), by default 20
+* **max-derivative** - max derivative degree which will be used for calculations (the bigger - the better approximation but also longer calculation time), by default 20
 * **points-file** - name of the file from which the base two-dimensional points will be read
 * **gnuplot-file** - name of the file to which `n_points` generated approximation points will be written
 * **from_x** - min point of approximation, by default x coordinate of the first point
