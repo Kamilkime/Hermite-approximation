@@ -19,9 +19,9 @@ The calculator was created as a part of **Programming languages and methodology*
 * **max-derivative** - max derivative degree which will be used for calculations (the bigger - the better approximation but also longer calculation time) 
 * **points-file** - name of the file from which the base two-dimensional points will be read
 * **gnuplot-file** - name of the file to which `n_points` generated approximation points will be written
-* **from_x** - min point of approximation
-* **to_x** - max point of approximation
-* **n_points** - number of points to calculate
+* **from_x** - min point of approximation, by default x coordinate of the first point
+* **to_x** - max point of approximation, by default x coordinate of the last point
+* **n_points** - number of points to calculate, by default 1000
 
 ## Example
 An example output files can be found in `test` directory
