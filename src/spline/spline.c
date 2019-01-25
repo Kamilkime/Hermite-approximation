@@ -197,8 +197,6 @@ long double splineValue(Spline *spline, long double x) {
 long double probabilistsHermitePolynomialValue(int polynomialDegree, int derivativeDegree, long double x) {
     if (polynomialDegree == 0) {
         return (derivativeDegree == 0 ? 1.0 : 0.0);
-    } else if (polynomialDegree == 1) {
-        return (derivativeDegree == 0 ? x : (derivativeDegree == 1 ? 1.0 : 0.0));
     } else {
         if (derivativeDegree == 0) {
             long double prevValue = probabilistsHermitePolynomialValue(polynomialDegree - 1, 0, x);
@@ -215,8 +213,6 @@ long double probabilistsHermitePolynomialValue(int polynomialDegree, int derivat
 long double physicistsHermitePolynomialValue(int polynomialDegree, int derivativeDegree, long double x) {
     if (polynomialDegree == 0) {
         return (derivativeDegree == 0 ? 1.0 : 0.0);
-    } else if (polynomialDegree == 1) {
-        return (derivativeDegree == 0 ? 2.0 * x : (derivativeDegree == 1 ? 2.0 : 0.0));
     } else {
         if (derivativeDegree == 0) {
             long double prevValue = physicistsHermitePolynomialValue(polynomialDegree - 1, 0, x);
