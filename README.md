@@ -46,4 +46,4 @@ Example program usage commands can be found in `makefile`
 
 
 ## License
-The analyser is licensed under **MIT License** - https://choosealicense.com/licenses/mit/
+The calculator is licensed under **MIT License** - https://choosealicense.com/licenses/mit/
